@@ -1,12 +1,12 @@
-body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+Filebody{
+    font-family:Dosis;
     background-color:darkgray;
     color:black}
 
 h1, h2, h3,h4,h5,h6
 {font-family: Dosis}
 h1 {font-size:30pt;text-align: center; color: black; font-variant: small-caps;}
-h2 {font-size:24pt;text-align: center; margin: .1em; font-weight: bolder; color:black;padding: 25px;}
+h2 {font-size:24pt;text-align: center; margin: .25em; font-weight: bolder; color:black;padding: 25px;}
 h3 {font-size:24pt;text-align: center;color: black;}
 h4 {font-size:18pt;text-align: left;}
 
@@ -89,9 +89,8 @@ header {text-align: center;}
 
 /*New Box Section*/
     #newbox {
-        background-color:steelblue;
+        background-color:silver;
         font-family: Dosis;
-        color:darkslategrey; 
         font:bolder;
         padding: 10px 1/4; 
         margin: .1em;
@@ -139,6 +138,7 @@ header {text-align: center;}
 /*Gallery Section*/
 
     #gallery{
+    background-color:silver;
     border: 5px solid grey;
     align-items: center;
     margin-bottom:2rem}
@@ -216,14 +216,19 @@ header {text-align: center;}
         font-size: 1.5rem;
         padding: .5rem;
         border: 1px outset darkgrey;
+        font-family:Dosis;
         font-weight: bolder;
         box-shadow: .5px .5px .5px .5px maroon;
     }
            
     /* Contact Form*/
         #formElements{
+            font-family:Dosis;
+            background-color: silver;
+            border: 5px solid maroon;
             display:grid;
             row-gap: .75em;
+            font-family:Dosis;
             font-variant: small-caps;
         }
     
@@ -231,10 +236,12 @@ header {text-align: center;}
             padding: 1.5rem;
             max-width:500px;
             margin: 1.5rem auto;
+            font-family:Dosis;
             font-variant: small-caps;
         }
 
         fieldset{
+            font-family:Dosis;
             border: 2px solid maroon;
             margin-top: 1em;
             margin-bottom: 1em;
