@@ -33,90 +33,7 @@ header {text-align: center;}
     font-size:20pt;
     font-variant: small-caps;
     color: black;}
-   
-
-
-
-/*Video Section*/
-#video
-    {flex: auto;
-    align-items: center;
-    color: maroon;
-    font-family: Dosis;
-    background-color: silver;
-    border:5px solid maroon;
-    border-style:groove;
-    text-align: center;
-    padding: 10px;
-    font-size: 18pt;
-    font-variant: small-caps;
-    }
-
-  /*Footer Section*/
-    #footer 
-    {text-align: center;
-    font-family:Dosis;
-    background-color: dimgray;
-    border:5px solid maroon;
-    border-style:groove;
-    padding: 10px;
-    font-size: 12pt;
-    font-variant: small-caps;
-    color: silver;}
-   
-
-/*Hobbies Section*/
-    #hobbies
-    {display:flex;
-    flex-direction: column;
-    align-items: center;
-    font-family:Dosis;
-    font-size: 14pt;
-    color:black;
-    font:bolder;
-    background-color:silver;
-    border:5px solid maroon;
-    border-style:groove;
-    margin:.1em}
-
-#hobbies
-    h2 {margin:.1em}
     
-
-    #hobbies ul {
-    text-align: center;
-    color:black;
-    font-family:Dosis;
-    font:bolder;
-    list-style-type: none; 
-    }
-
-/*New Box Section*/
-    #newbox {
-        background-color:silver;
-        font-family: Dosis;
-        font:bolder;
-        padding: 10px 1/4; 
-        margin: .1em;
-        text-align: center;
-        font-size: 18pt;
-        max-height: fit-content;
-        color:lightgrey;
-        align-items: center;
-        }
-
-    #mushroom {
-        background-color:silver;
-        border:slategrey 3px solid;
-        padding: 10px 1/4; 
-        margin: 10px;
-        text-align: center;
-        font-size: 18pt;
-        font-family:Dosis;
-        font-variant: small-caps;
-         color:black;
-        align-items: center;
-            }
     #hero img {width: 300px;}
 
     /*Bio Section*/
@@ -139,6 +56,68 @@ header {text-align: center;}
     #li{text-align:center; 
         font-family:Dosis;
         font-weight:normal}
+
+
+/*Video Section*/
+#video
+    {flex: auto;
+    align-items: center;
+    color: maroon;
+    font-family: Dosis;
+    background-color: silver;
+    border:5px solid maroon;
+    border-style:groove;
+    text-align: center;
+    padding: 10px;
+    font-size: 18pt;
+    font-variant: small-caps;
+    }
+
+/*Hobbies Section*/
+
+#hobbies{
+    background-color:silver;
+    border: 5px solid grey;
+    font-family: Dosis;
+    align-items: center;
+    margin-bottom:2rem}
+
+    #hobbies img {
+        max-width: 100%;
+        align-items: center;}
+
+    #hobbies figure { 
+        display:grid;
+        grid-template-columns: 2fr 1fr;     
+        padding: 10px;
+        font-family: Dosis;
+        font-variant: small-caps; 
+        align-items: center; 
+        display:grid;
+        grid-template-columns: 2fr 2fr;}
+  
+    #hobbies img {max-width: 100%;}
+    
+    #hobbies figure{
+        text-align:center}
+
+    #figure{
+            font-family: Dosis;
+            text-align:center; 
+            font-variant: small-caps; 
+            width: 300px;
+            align-items: center;
+            display:grid;
+            grid-template-columns: 2fr 1fr;}
+            
+    #figcaption {
+            font-family: Dosis;
+            display:flex;
+            justify-content: center;
+            align-items: center; 
+            font-size: 2rem;
+            margin-left: 1rem;}
+
 
 /*Gallery Section*/
 
@@ -211,6 +190,21 @@ header {text-align: center;}
             padding: .3rem 0;
             clear: both;
         }
+
+
+  /*Footer Section*/
+  #footer 
+  {text-align: center;
+  font-family:Dosis;
+  background-color: dimgray;
+  border:5px solid maroon;
+  border-style:groove;
+  padding: 10px;
+  font-size: 12pt;
+  font-variant: small-caps;
+  color: silver;}
+ 
+
 
  /*Dropcaps
 

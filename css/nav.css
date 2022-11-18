@@ -53,8 +53,7 @@ padding: 1rem;
 
 
 /*  
- style all a tags in header 
- and then on hover
+ style all a tags in header and then on hover
 */
 .navbar-links a {
   color:black;
@@ -81,9 +80,7 @@ padding: 1rem;
 
 
 /* 
-media query for non-mobile nav bar
-min-width set to width of nav elements 
-such that no text wraps 
+media query for non-mobile nav bar min-width set to width of nav elements such that no text wraps 
 */
 
 @media screen and (min-width: 60rem)
