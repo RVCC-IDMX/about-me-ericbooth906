@@ -34,9 +34,9 @@ header {text-align: center;}
     font-variant: small-caps;
     color: black;}
     
-    #hero img {
-    width: 200px;
+    #hero img{
     border-radius: 50%;}
+   
 
 
     /*Bio Section*/
@@ -82,69 +82,52 @@ header {text-align: center;}
     }
 
 /*Hobbies Section*//* Three image containers (use 25% for four, and 50% for two, etc) */
+
 #hobbies{
-    background-color:black;
+    background-color:red;
     border: 5px solid grey;
     font-family: Dosis;
-    align-items: left;
-    margin-bottom:2rem;
-    
-    flex: auto;
-        font-family: Dosis;
-        background-color:silver;
-        border:5px solid maroon;
-        border-style:groove;
-        text-align: center;
-        padding: 10px;
-        font-size:16pt;
-        font-variant:normal;
-        color: black;}
-        
-#hobbies img {
-    width: 300px;
-    max-width: 300px;}       
+    align-items: center;
+    margin-bottom:2rem}
 
-    #hobbies figure { 
-        display:grid; 
+    #hobbies img {
+        max-width: 100%;
+        align-items: center;}
+
+    #hobbies figure{ 
+        display:grid;
+        flex-direction: row;
+        grid-template-columns: 2fr 1fr;     
         padding: 10px;
         font-family: Dosis;
         font-variant: small-caps; 
         align-items: center; 
-        grid-template-columns: 3fr 2fr;}
+        
+        grid-template-columns: 2fr 2fr;}
   
-    #hobbies img {max-width: 100%;}
+    #hobbies img{
+    max-width: 300px;
+    max-height: 300px;}
     
     #hobbies figure{
         text-align:center}
 
-    #hobbies figure{
-            font-family: Dosis;
-            text-align:center; 
-            font-variant: small-caps; 
-            align-items: center;
-            display:grid;
-            grid-template-columns: 3fr 2fr;}
-            
-    #hobbies figcaption {
-            font-family: Dosis;
-            display:flex;
-            justify-content: center;
-            align-items: center; 
-            font-size: 18pt;
-            margin-left: 1rem;}
-    
-    #hobbies p1 {
-            font-family: Dosis;
-            color:black;
-            text-align:left;
-            background-color: silver;
-            border-color: maroon;
-            border-width: 1.5rem;
-            display:flex;
-            align-content: flex-end left;
-            font-size: 1.5rem;
-            margin: 2rem}
-
+    #figure{
+        font-family: Dosis;
+        text-align:center; 
+        font-variant: small-caps; 
+        width: 300px;
+        align-items: center;
+        display:grid;
+        grid-template-columns: 2fr 1fr;}
+        
+    #figcaption {
+        font-family: Dosis;
+        display:flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: 2rem;
+        margin-left: 1rem;}
 
 /*Gallery Section*/
 
