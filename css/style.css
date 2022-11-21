@@ -34,7 +34,10 @@ header {text-align: center;}
     font-variant: small-caps;
     color: black;}
     
-    #hero img {width: 300px;}
+    #hero img 
+    {width: 500px;
+    border-radius: 50%;}
+
 
     /*Bio Section*/
 
@@ -56,6 +59,7 @@ header {text-align: center;}
         padding: 2rem;
         max-width: 75rem;
         margin: 0 auto;}
+        
   
     #li{text-align:center; 
         font-family:Dosis;
