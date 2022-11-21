@@ -39,7 +39,7 @@ header {text-align: center;}
     /*Bio Section*/
 
     #bio {
-        background-color:silver;
+        background-color:lightsteelblue;
         border:maroon 5px solid;
         border-style:groove;
         margin-top: 10px;
@@ -51,7 +51,11 @@ header {text-align: center;}
         font-size:14pt;
         font-weight:normal display flex; 
         flex-direction: column; 
-        align-items: center;}
+        align-items: center;
+        margin-bottom:2rem;
+        padding: 2rem;
+        max-width: 75rem;
+        margin: 0 auto;}
   
     #li{text-align:center; 
         font-family:Dosis;
@@ -185,51 +189,70 @@ header {text-align: center;}
         margin-left: 1rem;}
 
 
-/*VariableSection */  
+/*Variable Font Section */  
 
-#varfont 
-    #varfont {
-        background-color:violet;
+#varfont{
+        background-color:lightsteelblue;
         border: 5px solid maroon;
         padding: 50px;
-        text-align: left;
+        text-align: center;
         line-height: 1.5;
-        font-weight:normal; 
         font-family:Dosis; 
-        font: size 1.5rem;
         margin-bottom:2rem;
-        word-spacing: 30px;}
-    
-    #varfont pa {
-            font-family: Dosis; 
-            word-spacing: 30px;
-            color: black;}
+        padding: 2rem;
+        max-width: 75rem;
+        margin: 0 auto;}
 
     #varfont p3 {
        font-family: Dosis; 
        font-style: italic;
-       color: black;
-       
-       word-spacing: 30px;}
+       word-spacing: 30px;
+       font-size: x-large; 
+       text-align: center;
+       color: black}
 
        #varfont p4 {
         font-family: Dosis; 
-        color: black;
-        font-weight: bolder;
-       
-        word-spacing: 30px;}
+        font-weight: bolder;       
+        word-spacing: 30px;
+        font-size: x-large; 
+        text-align: center;
+        color:black}
  
-        #varfont p3 {
-            font-family: Dosis; 
-            font-weight: lighter;
-            color: black;
-             word-spacing: 30px;}
+        #varfont p5 {
+        font-family: Dosis; 
+        font-weight: lighter;
+        word-spacing: 30px;
+        font-size: x-large; 
+        text-align: center;
+        color: black}
      
+        #varfont p6 {
+            font-family: Dosis; 
+            font-style: oblique 12deg;
+            word-spacing: 30px;
+            font-size: x-large; 
+            text-align: center;
+            color: black}
 
-
+        #varfont p7 {
+            font-family: Dosis; 
+            font-optical-sizing: auto;
+            word-spacing: 30px;
+            font-size: x-large; 
+            text-align: center;
+            color: black}
+            
+        #varfont p8 {
+            font-family: Dosis; 
+            width:1in;
+            word-spacing: 30px;
+            font-size: x-large; 
+            text-align: center;
+            color: black}
 /*Article Section */  
 
-    #lit {
+    #lit article{
         background-color:lightgrey;
         border: 5px solid maroon;
         padding: 50px;
@@ -237,7 +260,7 @@ header {text-align: center;}
         line-height: 1.5;
         font-weight:normal; 
         font-family:Dosis; 
-        font: size 1.5rem;
+        font: size 2.0rem;
         margin-bottom:2rem;
         }
       
@@ -247,7 +270,7 @@ header {text-align: center;}
             margin: 0 auto;
         }
 
-        #lit div p {
+        #lit div p{
             padding: .3rem 0;
             clear: both;
         }
