@@ -73,50 +73,69 @@ header {text-align: center;}
     font-variant: small-caps;
     }
 
-/*Hobbies Section*/
-
+/*Hobbies Section*//* Three image containers (use 25% for four, and 50% for two, etc) */
 #hobbies{
-    background-color:silver;
+    background-color:black;
     border: 5px solid grey;
     font-family: Dosis;
-    align-items: center;
-    margin-bottom:2rem}
-
-    #hobbies img {
-        max-width: 100%;
-        align-items: center;}
+    align-items: left;
+    margin-bottom:2rem;
+    
+    flex: auto;
+        font-family: Dosis;
+        background-color:silver;
+        border:5px solid maroon;
+        border-style:groove;
+        text-align: center;
+        padding: 10px;
+        font-size:16pt;
+        font-variant:normal;
+        color: black;}
+        
+#hobbies img {
+    width: 300px;
+    max-width: 300px;}       
 
     #hobbies figure { 
-        display:grid;
-        grid-template-columns: 2fr 1fr;     
+        display:grid; 
         padding: 10px;
         font-family: Dosis;
         font-variant: small-caps; 
         align-items: center; 
-        display:grid;
-        grid-template-columns: 2fr 2fr;}
+        grid-template-columns: 3fr 2fr;}
   
     #hobbies img {max-width: 100%;}
     
     #hobbies figure{
         text-align:center}
 
-    #figure{
+    #hobbies figure{
             font-family: Dosis;
             text-align:center; 
             font-variant: small-caps; 
-            width: 300px;
             align-items: center;
             display:grid;
-            grid-template-columns: 2fr 1fr;}
+            grid-template-columns: 3fr 2fr;}
             
-    #figcaption {
+    #hobbies figcaption {
             font-family: Dosis;
             display:flex;
             justify-content: center;
             align-items: center; 
-            font-size: 2rem;
+            font-size: 18pt;
             margin-left: 1rem;}
+    
+    #hobbies p1 {
+            font-family: Dosis;
+            color:black;
+            text-align:left;
+            background-color: silver;
+            border-color: maroon;
+            border-width: 1.5rem;
+            display:flex;
+            align-content: flex-end left;
+            font-size: 1.5rem;
+            margin: 2rem}
 
 
 /*Gallery Section*/
@@ -166,9 +185,51 @@ header {text-align: center;}
         margin-left: 1rem;}
 
 
+/*VariableSection */  
+
+#varfont 
+    #varfont {
+        background-color:violet;
+        border: 5px solid maroon;
+        padding: 50px;
+        text-align: left;
+        line-height: 1.5;
+        font-weight:normal; 
+        font-family:Dosis; 
+        font: size 1.5rem;
+        margin-bottom:2rem;
+        word-spacing: 30px;}
+    
+    #varfont pa {
+            font-family: Dosis; 
+            word-spacing: 30px;
+            color: black;}
+
+    #varfont p3 {
+       font-family: Dosis; 
+       font-style: italic;
+       color: black;
+       
+       word-spacing: 30px;}
+
+       #varfont p4 {
+        font-family: Dosis; 
+        color: black;
+        font-weight: bolder;
+       
+        word-spacing: 30px;}
+ 
+        #varfont p3 {
+            font-family: Dosis; 
+            font-weight: lighter;
+            color: black;
+             word-spacing: 30px;}
+     
+
+
 /*Article Section */  
 
-    #lit{
+    #lit {
         background-color:lightgrey;
         border: 5px solid maroon;
         padding: 50px;
@@ -176,7 +237,7 @@ header {text-align: center;}
         line-height: 1.5;
         font-weight:normal; 
         font-family:Dosis; 
-        font-size:14pt;
+        font: size 1.5rem;
         margin-bottom:2rem;
         }
       
