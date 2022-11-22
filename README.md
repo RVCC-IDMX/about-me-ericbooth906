@@ -2,43 +2,39 @@
 **ericbooth906/ericbooth906** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 
+# Eric Booth About Me Project README
 
+```python
+Hello. I'm Eric Booth and this is a summary of my closing project for my Web Development I course at Raritan Valley Community College.
+See the sections below for a summary of progress this semester.
+```
 
-# Eric Booth About Me Project
+## About Me Project
+ The About Me Projectis a semester-long project designed to teach basic aspects of web design.
+Among the topics covered:
 
-Hello. I'm Eric Booth and I have a new interest in web development. 
-I like to travel.  Here is a list of states that I _**have not**_ been to:
-- Alaska
-- Hawaii
-
-## References Part 1
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Sites
+The following websites were introduces and utilized within the course:
+[Github](https://github.com) - a website and cloud-based service that helps developers store and manage their code. I also allows users to track and control changes to their code.
+[Netlify](https://Netlify.com) - Netlify is a platform for web developers and designers that offers hosting and serverless backend services for web applications.
+[Unsplash](https://unsplash.com) - source for open use photos, many for free.
+[Google Fonts](fonts.Google.com) - a computer font and web font service owned by Google that offers free and open source font families for public use
 
 ```bash
-pip install foobar
+This text will show up white on a black background
 ```
 
 ## Why I Did This
 
 This is a longer discussion of why I created this account.  
 Here is some text that I probably will not use
-I am an outdoors person:
-I enjoy fishing:
-And, I'm a history major:
-I enjoy basketball - particularly the [NY Knicks](https://www.nba.com/knicks) 
-I am co-founder of an [environmental organization](https://www.instagram.com/erthcleanupcommunity/?hl=en) 
 
 ## Contributing
 
-Pull requests are welcome as I continue to learn more about creating sites.
+This is a personal site. Suggestions are welcome.
 
-Please make sure to update tests as appropriate.
-
-## License
-
+## References Used for Variable Fonts Article
 [MIT](https://choosealicense.com/licenses/mit/)
-
 
 
 
