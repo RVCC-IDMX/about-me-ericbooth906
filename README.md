@@ -48,7 +48,7 @@ The following websites were introduces and utilized within the course:
 # Color Scheme and Assessing Color Contrast Ratios
  Here is the primary color scheme I used for the site:
 
- ![Alt text](../../../../../../../../C:/Users/3boot/Desktop/RVCC/AAA%20IDMX/New%20About%20Me/about-me-ericbooth906/img/Color%20Palette%20About%20Me.png)
+ ![Alt text](img/Color%20Palette%20About%20Me.png)
 
 With a goal of creating a "professional" looking site, I selected muted colors.
 There are a few complementary colors such as Dim Grey (#696969), Light Steel Blue (#B0C4DE), and White (#FFFFF) added in as well.
