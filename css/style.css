@@ -153,17 +153,26 @@ header {text-align: center;}
 #video
     {flex: auto;
     align-items: center;
+    background-color: blue;
     color: maroon;
     font-family: Dosis;
     background-color: silver;
     border:5px solid maroon;
-    border-style:groove;
     text-align: center;
     padding: 10px;
     font-size: 18pt;
     font-variant: small-caps;
     }
 
+    .box{
+        float:left;
+        margin: 20px;}
+
+    .box { display:inline-block; }
+
+    .clear{
+        clear:both;
+    }
     
 /*Variable Font Section */  
 
