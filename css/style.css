@@ -120,14 +120,6 @@ header {text-align: center;}
 
        
         
-
-
-
-
-
-
-
-
 /*My Hobbies Section*/
 
 #myhobbies {
@@ -147,25 +139,15 @@ header {text-align: center;}
             
         .myDIV:hover + .hide {
           display: block;
-          background-color:whitesmoke;
-          font-size: medium;
+          background-color:silver;
+          font-size: 24pt;
           font-style: italic;
           color: black;
-          border: maroon 2 em;
+          border:5px solid black;
           text-align: left;
-        }
-        .myDIV2:hover + .hide {
-            display:contents;
-            background-color:whitesmoke;
-            font-size: medium;
-            font-style: italic;
-            color: black;
-            border: maroon 2 em;
-            
-          }
-  
+          align-self: center;}
 
-        
+          
 
 /*Video Section*/
 #video
@@ -181,19 +163,6 @@ header {text-align: center;}
     font-size: 18pt;
     font-variant: small-caps;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     
 /*Variable Font Section */  
