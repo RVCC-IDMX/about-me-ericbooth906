@@ -154,7 +154,15 @@ header {text-align: center;}
           border: maroon 2 em;
           text-align: left;
         }
-    
+        .myDIV2:hover + .hide {
+            display:contents;
+            background-color:whitesmoke;
+            font-size: medium;
+            font-style: italic;
+            color: black;
+            border: maroon 2 em;
+            
+          }
   
 
         
