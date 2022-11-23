@@ -68,72 +68,10 @@ header {text-align: center;}
         font-weight:normal}
 
 
-/*Video Section*/
-#video
-    {flex: auto;
-    align-items: center;
-    color: maroon;
-    font-family: Dosis;
-    background-color: silver;
-    border:5px solid maroon;
-    border-style:groove;
-    text-align: center;
-    padding: 10px;
-    font-size: 18pt;
-    font-variant: small-caps;
-    }
-
-/*Hobbies Section*//* Three image containers (use 25% for four, and 50% for two, etc) */
-
-#hobbies{
-    background-color:red;
-    border: 5px solid grey;
-    font-family: Dosis;
-    align-items: center;
-    margin-bottom:2rem}
-
-    #hobbies img {
-        max-width: 100%;
-        align-items: center;}
-
-    #hobbies figure{ 
-        flex-direction: row;
-        grid-template-columns: 2fr 1fr;     
-        padding: 10px;
-        font-family: Dosis;
-        font-variant: small-caps; 
-        align-items: center; 
-        
-        grid-template-columns: 2fr 2fr;}
-  
-    #hobbies img{
-    max-width: 300px;
-    max-height: 300px;}
-    
-    #hobbies figure{
-        text-align:center}
-
-    #figure{
-        font-family: Dosis;
-        text-align:center; 
-        font-variant: small-caps; 
-        width: 300px;
-        align-items: center;
-        display:grid;
-        grid-template-columns: 2fr 1fr;}
-        
-    #figcaption {
-        font-family: Dosis;
-        display:flex;
-        justify-content: center;
-        align-items: center; 
-        font-size: 2rem;
-        margin-left: 1rem;}
-
 /*Gallery Section*/
 
     #gallery {
-    background-color:lightsteelblue;
+    background-color:silver;
     border: 5px solid maroon;
     font-family: Dosis;
     color: black;
@@ -180,11 +118,80 @@ header {text-align: center;}
         font-size: 2rem;
         margin-left: 1rem;}
 
-         
+       
+        
+
+
+
+
+
+
+
+
+/*My Hobbies Section*/
+
+#myhobbies {
+    background-color:lightsteelblue;
+    border: 5px solid maroon;
+    font-family: Dosis;
+    color: black;
+    align-items: center;
+    font-size: x-large;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    object-fit: scale-down;}
+
+        .hide {
+          display: none;
+        }
+            
+        .myDIV:hover + .hide {
+          display: block;
+          background-color:whitesmoke;
+          font-size: medium;
+          font-style: italic;
+          color: black;
+          border: maroon 2 em;
+          text-align: left;
+        }
+    
+  
+
+        
+
+/*Video Section*/
+#video
+    {flex: auto;
+    align-items: center;
+    color: maroon;
+    font-family: Dosis;
+    background-color: silver;
+    border:5px solid maroon;
+    border-style:groove;
+    text-align: center;
+    padding: 10px;
+    font-size: 18pt;
+    font-variant: small-caps;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 /*Variable Font Section */  
 
 #varfont{
+        flex-direction: row;
         background-color:lightsteelblue;
         border: 5px solid maroon;
         padding: 50px;
@@ -199,6 +206,7 @@ header {text-align: center;}
 
     #varfont p3 {
        font-family: Dosis; 
+       text-decoration:underline;
        font-style: italic;
        font-size: x-large; 
        text-align: center;
@@ -206,6 +214,7 @@ header {text-align: center;}
 
        #varfont p4 {
         font-family: Dosis; 
+        text-decoration:underline;
         font-weight: bolder;       
         font-size: x-large; 
         text-align: center;
@@ -213,6 +222,7 @@ header {text-align: center;}
  
         #varfont p5 {
         font-family: Dosis; 
+        text-decoration:underline;
         font-weight: lighter;
         font-size: x-large; 
         text-align: center;
@@ -220,13 +230,15 @@ header {text-align: center;}
      
         #varfont p6 {
             font-family: Dosis; 
-            transform: rotate(45);
+            text-decoration:underline;
+            transform: rotate(-45 deg);
             font-size: x-large; 
             text-align: center;
             color: black}
 
         #varfont p7 {
             font-family: Dosis; 
+            text-decoration:underline;
             font-optical-sizing: auto;
             font-size: x-large; 
             text-align: center;
@@ -235,14 +247,21 @@ header {text-align: center;}
         #varfont p8 {
             font-family: Dosis; 
             font-stretch: extra-expanded;
-            width: 2em;
+            text-decoration:underline;
             font-size: x-large; 
             text-align: center;
             color: black}
 
+        #varfont stext {
+                -ms-transform: rotate(-10deg); /* IE 9 */
+                -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+                -moz-transform: rotate(-10deg); /*Mozilla */
+                 transform: rotate(-10deg);}
+
 /*Article Section */  
 
         #lit article{
+        flex-direction: column;
         background-color:lightgrey;
         border: 5px solid maroon;
         padding: 50px;
@@ -271,6 +290,54 @@ header {text-align: center;}
         #lit str1 {font-stretch:ultra-expanded;}
         #lit slant {font-style:oblique}
 
+
+        #lit p3 {
+            font-family: Dosis; 
+            text-decoration:underline;
+            font-style: italic;
+            font-size: x-large; 
+            text-align: center;
+            color: black}
+     
+        #lit p4 {
+             font-family: Dosis; 
+             text-decoration:underline;
+             font-weight: bolder;       
+             font-size: x-large; 
+             text-align: center;
+             color:black}
+      
+        #lit p5 {
+             font-family: Dosis; 
+             text-decoration:underline;
+             font-weight: lighter;
+             font-size: x-large; 
+             text-align: center;
+             color: black}
+          
+        #lit  p6 {
+                 font-family: Dosis; 
+                 text-decoration:underline;
+                 transform: rotate(-45 deg);
+                 font-size: x-large; 
+                 text-align: center;
+                 color: black}
+     
+        #lit p7 {
+                 font-family: Dosis; 
+                 text-decoration:underline;
+                 font-optical-sizing: auto;
+                 font-size: x-large; 
+                 text-align: center;
+                 color: black}
+                 
+            #lit p8 {
+                 font-family: Dosis; 
+                 font-stretch: extra-expanded;
+                 text-decoration:underline;
+                 font-size: x-large; 
+                 text-align: center;
+                 color: black}
 
         
   /*Footer Section*/
