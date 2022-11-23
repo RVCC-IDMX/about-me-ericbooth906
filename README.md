@@ -53,18 +53,22 @@ The following websites were introduces and utilized within the course:
 With a goal of creating a "professional" looking site, I selected muted colors.
 There are a few complementary colors such as Dim Grey (#696969), Light Steel Blue (#B0C4DE), and White (#FFFFF) added in as well.
 
+# Citations for Hobbies Section
+* Andrew Denning, Deep Play? Video Games and the Historical Imaginary, The American Historical Review, Volume 126, Issue 1, March 2021, Pages 180–198, https://doi.org/10.1093/ahr/rhab002.
+
 # Variable Fonts Blog Article
 Part of the assignment was to prepare a researched and cited article on a specific course-related topic from a list that was provided to students. That article is included along with some examples.
 
 # Citations for Variable Fonts Article
 * Kurtuldu, Mustafa, et al. “Introduction to Variable Fonts on the Web.” Web.dev, 19 Jan. 2022, https://web.dev/variable-fonts. 
 
-* Niederst Robbins, Jennifer. Learning Web Design : A Beginner's Guide to Html, Css, Javascript, and Web Graphics. Fifth edition., Fifth ed., O'Reilly Media, 2018..
+* Niederst Robbins, Jennifer. Learning Web Design : A Beginner's Guide to Html, Css, Javascript, and Web Graphics. Fifth edition., Fifth ed., O'Reilly Media, 2018.
 
 * Pamental, Jason, et al. “Designing with Variable Fonts.” A Variable Fonts Primer, https://variablefonts.io/about-variable-fonts/#:~:text=Variable%20fonts%20are%20an%20evolution,width%2C%20weight%2C%20or%20italic. 
 
 * Rutter, Richard. “Get Started with Variable Fonts.” Medium, Medium, 26 Apr. 2018, https://medium.com/@clagnut/get-started-with-variable-fonts-c055fd73ecd7.
-“Variable Fonts 101: How to Get Started with Variable Fonts.” Monotype, 2022, https://www.monotype.com/resources/expertise/variable-fonts-101
+
+* “Variable Fonts 101: How to Get Started with Variable Fonts.” Monotype, 2022, https://www.monotype.com/resources/expertise/variable-fonts-101.
 
 # A Note About Hobbies
 Maybe something here
