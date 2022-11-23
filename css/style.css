@@ -180,7 +180,8 @@ header {text-align: center;}
         font-size: 2rem;
         margin-left: 1rem;}
 
-
+         
+    
 /*Variable Font Section */  
 
 #varfont{
@@ -194,11 +195,11 @@ header {text-align: center;}
         padding: 2rem;
         margin-top: 2rem;
         margin-bottom:2rem;}
+    
 
     #varfont p3 {
        font-family: Dosis; 
        font-style: italic;
-       word-spacing: 30px;
        font-size: x-large; 
        text-align: center;
        color: black}
@@ -206,7 +207,6 @@ header {text-align: center;}
        #varfont p4 {
         font-family: Dosis; 
         font-weight: bolder;       
-        word-spacing: 30px;
         font-size: x-large; 
         text-align: center;
         color:black}
@@ -214,15 +214,13 @@ header {text-align: center;}
         #varfont p5 {
         font-family: Dosis; 
         font-weight: lighter;
-        word-spacing: 30px;
         font-size: x-large; 
         text-align: center;
         color: black}
      
         #varfont p6 {
             font-family: Dosis; 
-            font-style: oblique 12deg;
-            word-spacing: 30px;
+            transform: rotate(45);
             font-size: x-large; 
             text-align: center;
             color: black}
@@ -230,15 +228,14 @@ header {text-align: center;}
         #varfont p7 {
             font-family: Dosis; 
             font-optical-sizing: auto;
-            word-spacing: 30px;
             font-size: x-large; 
             text-align: center;
             color: black}
             
         #varfont p8 {
             font-family: Dosis; 
-            width:1in;
-            word-spacing: 30px;
+            font-stretch: extra-expanded;
+            width: 2em;
             font-size: x-large; 
             text-align: center;
             color: black}

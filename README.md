@@ -67,7 +67,7 @@ Part of the assignment was to prepare a researched and cited article on a specif
 “Variable Fonts 101: How to Get Started with Variable Fonts.” Monotype, 2022, https://www.monotype.com/resources/expertise/variable-fonts-101
 
 # A Note About Hobbies
-xasdfgjadgldgs
+Maybe something here
 # If You're looking at This........
 
 Congratulations! You've found a README.md article, something that I did not know existed prior to this course. Now, look at me, adding fonts and color and graphics and trying to explain why this site is interesting.
