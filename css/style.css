@@ -19,31 +19,30 @@ header {text-align: center;}
     font-weight: normal;
     color:maroon}
  
-    /*Hero and Footer Section*/
+/*Hero and Footer Section*/
 
 /*Hero Section*/
     #hero
-    {flex: auto;
-    font-family: Dosis;
-    background-color:silver;
-    border:5px solid maroon;
-    border-style:groove;
-    text-align: center;
-    padding: 5px;
-    font-size:20pt;
-    font-variant: small-caps;
-    color: black;}
+        {flex: auto;
+        font-family: Dosis;
+        background-color:silver;
+        border:5px solid maroon;
+        border-style:groove;
+        text-align: center;
+        padding: 5px;
+        font-size:20pt;
+        font-variant: small-caps;
+        color: black;
+        padding: 10px;}
     
     #hero img{
-    border-radius: 50%;
-    max-width: 200px;}
+        border-radius: 50%;
+        max-width: 200px;}
     
     #hero p{font-size: larger;}
-   
+  
 
-
-    /*Bio Section*/
-
+/*Bio Section*/
     #bio {
         background-color:lightsteelblue;
         border:maroon 5px solid;
@@ -59,7 +58,7 @@ header {text-align: center;}
         flex-direction: column; 
         align-items: center;
         margin-bottom:2rem;
-        padding: 2rem;
+        padding: 10px;
         margin: 0 auto;}
         
   
@@ -71,19 +70,23 @@ header {text-align: center;}
 /*Gallery Section*/
 
     #gallery {
-    background-color:silver;
-    border: 5px solid maroon;
-    font-family: Dosis;
-    color: black;
-    align-items: center;
-    font-size: x-large;
-    margin-top: 2rem;
-    margin-bottom:2rem}
+        background-color:silver;
+        border: 5px solid maroon;
+        font-family: Dosis;
+        color: black;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom:2rem;
+        float:none;
+        text-align: center;
+        padding: 10px;
+        font-size: 24pt;
+        color: darkslategray;
+        font-variant: small-caps;}
 
     #gallery img {
         max-width: 100%;
-        align-items: center;
-    }
+        align-items: center; }
 
     #gallery figure { 
         display:grid;
@@ -122,16 +125,16 @@ header {text-align: center;}
         
 /*My Hobbies Section*/
 
-#myhobbies {
-    background-color:lightsteelblue;
-    border: 5px solid maroon;
-    font-family: Dosis;
-    color: black;
-    align-items: center;
-    font-size: x-large;
-    margin-top: 2rem;
-    margin-bottom:2rem;
-    object-fit: scale-down;}
+    #myhobbies {
+        background-color:lightsteelblue;
+        border: 5px solid maroon;
+        font-family: Dosis;
+        color: black;
+        align-items: center;
+        font-size: x-large;
+        margin-top: 2rem;
+        margin-bottom:2rem;
+        object-fit: scale-down;}
 
         .hide {
           display: none;
@@ -147,36 +150,34 @@ header {text-align: center;}
           text-align: left;
           align-self: center;}
 
-          
 
 /*Video Section*/
-#video
-    {flex: auto;
-    align-items: center;
-    background-color: blue;
-    color: maroon;
-    font-family: Dosis;
-    background-color: silver;
-    border:5px solid maroon;
-    text-align: center;
-    padding: 10px;
-    font-size: 18pt;
-    font-variant: small-caps;
-    }
+    #video {
+        flex: auto;
+        align-items: center;
+        font-family: Dosis;
+        background-color: silver;
+        border:5px solid maroon;
+        text-align: center;
+        padding: 10px;
+            font-size: 18pt;
+        font-variant: small-caps;}
 
-    .box{
-        float:left;
+        .box{
+        float:none;
         margin: 20px;}
 
-    .box { display:inline-block; }
+        .box { display:inline-block; }
 
-    .clear{
-        clear:both;
-    }
+        .clear{
+        clear:both;}
     
+        .h4 {color: black;}
+
+
 /*Variable Font Section */  
 
-#varfont{
+    #varfont{
         flex-direction: row;
         background-color:lightsteelblue;
         border: 5px solid maroon;
@@ -184,6 +185,7 @@ header {text-align: center;}
         text-align: center;
         line-height: 1.5;
         font-family:Dosis; 
+        color: black;
         align-self: center;
         padding: 2rem;
         margin-top: 2rem;
@@ -192,155 +194,244 @@ header {text-align: center;}
 
     #varfont p3 {
        font-family: Dosis; 
+       color: black;
        text-decoration:underline;
        font-style: italic;
        font-size: x-large; 
        text-align: center;
        color: black}
 
-       #varfont p4 {
-        font-family: Dosis; 
+    #varfont p4 {
+        font-family: Dosis;
+        color: black; 
         text-decoration:underline;
         font-weight: bolder;       
         font-size: x-large; 
         text-align: center;
         color:black}
  
-        #varfont p5 {
+    #varfont p5 {
         font-family: Dosis; 
-        text-decoration:underline;
+        color:black;
+        text-decoration: underline;
         font-weight: lighter;
         font-size: x-large; 
         text-align: center;
         color: black}
      
-        #varfont p6 {
-            font-family: Dosis; 
-            text-decoration:underline;
-            transform: rotate(-45 deg);
-            font-size: x-large; 
-            text-align: center;
-            color: black}
+    #varfont p6 {
+        font-family: Dosis; 
+        color: black;
+        text-decoration:underline;
+        transform: rotate(-45 deg);
+        font-size: x-large; 
+        text-align: center;
+        color: black}
 
-        #varfont p7 {
-            font-family: Dosis; 
-            text-decoration:underline;
-            font-optical-sizing: auto;
-            font-size: x-large; 
-            text-align: center;
-            color: black}
+    #varfont p7 {
+        font-family: Dosis; 
+        color: black;
+        text-decoration:underline;
+        font-optical-sizing: auto;
+        font-size: x-large; 
+        text-align: center;
+        color: black}
             
-        #varfont p8 {
-            font-family: Dosis; 
-            font-stretch: extra-expanded;
-            text-decoration:underline;
-            font-size: x-large; 
-            text-align: center;
-            color: black}
+    #varfont p8 {
+        font-family: Dosis; 
+        color: black;
+        font-stretch: extra-expanded;
+        text-decoration:underline;
+        font-size: x-large; 
+        text-align: center;
+        color: black}
 
-        #varfont stext {
-                -ms-transform: rotate(-10deg); /* IE 9 */
-                -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
-                -moz-transform: rotate(-10deg); /*Mozilla */
-                 transform: rotate(-10deg);}
+    #varfont stext {
+        -ms-transform: rotate(-10deg); /* IE 9 */
+         -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+        -moz-transform: rotate(-10deg); /*Mozilla */
+         transform: rotate(-10deg);}
 
 /*Article Section */  
 
-        #lit article{
+    #lit article{
         flex-direction: column;
         background-color:lightgrey;
         border: 5px solid maroon;
         padding: 50px;
         text-align: left;
         font-family:Dosis;
+        color:black;
         font-size: larger; 
         font: size 2.0rem;
-        margin-bottom:2rem;
-        }
+        margin-bottom:2rem; }
       
-        #lit div{
+    #lit div{
             padding: 2rem;
             max-width: 40rem;
-            margin: 0 auto;
-        }
+            margin: 0 auto;}
 
-        #lit div p{
+    #lit div p{
             padding: .3rem 0;
             clear: both;}
         
-        #lit f1 {font-weight: 100;}
-        #lit f5 {font-weight: 500;}
-        #lit f9 {font-weight: 900;}
-        #lit fit {font-style: italic;}
-        #lit str {font-stretch:wider;}
-        #lit str1 {font-stretch:ultra-expanded;}
-        #lit slant {font-style:oblique}
+    #lit f1 {font-weight: 100;}
+    #lit f5 {font-weight: 500;}
+    #lit f9 {font-weight: 900;}
+    #lit fit {font-style: italic;}
+    #lit str {font-stretch:wider;}
+    #lit str1 {font-stretch:ultra-expanded;}
+    #lit slant {font-style:oblique}
 
 
-        #lit p3 {
-            font-family: Dosis; 
-            text-decoration:underline;
-            font-style: italic;
-            font-size: x-large; 
-            text-align: center;
-            color: black}
+    #lit p3 {
+        font-family: Dosis; 
+        text-decoration:underline;
+        font-style: italic;
+        font-size: x-large; 
+        text-align: center;
+        color: black}
      
-        #lit p4 {
-             font-family: Dosis; 
-             text-decoration:underline;
-             font-weight: bolder;       
-             font-size: x-large; 
-             text-align: center;
-             color:black}
+    #lit p4 {
+        font-family: Dosis; 
+        text-decoration:underline;
+        font-weight: bolder;       
+        font-size: x-large; 
+        text-align: center;
+        color:black}
       
-        #lit p5 {
-             font-family: Dosis; 
-             text-decoration:underline;
-             font-weight: lighter;
-             font-size: x-large; 
-             text-align: center;
-             color: black}
+    #lit p5 {
+        font-family: Dosis; 
+        text-decoration:underline;
+        font-weight: lighter;
+        font-size: x-large; 
+        text-align: center;
+        color: black}
           
-        #lit  p6 {
-                 font-family: Dosis; 
-                 text-decoration:underline;
-                 transform: rotate(-45 deg);
-                 font-size: x-large; 
-                 text-align: center;
-                 color: black}
+    #lit  p6 {
+        font-family: Dosis; 
+        text-decoration:underline;
+        transform: rotate(-45 deg);
+        font-size: x-large; 
+        text-align: center;
+        color: black}
      
-        #lit p7 {
-                 font-family: Dosis; 
-                 text-decoration:underline;
-                 font-optical-sizing: auto;
-                 font-size: x-large; 
-                 text-align: center;
-                 color: black}
+    #lit p7 {
+        font-family: Dosis; 
+        text-decoration:underline;
+        font-optical-sizing: auto;
+        font-size: x-large; 
+        text-align: center;
+        color: black}
                  
-            #lit p8 {
-                 font-family: Dosis; 
-                 font-stretch: extra-expanded;
-                 text-decoration:underline;
-                 font-size: x-large; 
-                 text-align: center;
-                 color: black}
+    #lit p8 {
+        font-family: Dosis; 
+        font-stretch: extra-expanded;
+        text-decoration:underline;
+        font-size: x-large; 
+        text-align: center;
+        color: black}
 
         
-  /*Footer Section*/
-  #footer 
-  {text-align: center;
-  font-family:Dosis;
-  background-color: dimgray;
-  border:5px solid maroon;
-  border-style:groove;
-  padding: 10px;
-  font-size: 12pt;
-  font-variant: small-caps;
-  color: silver;}
+/*Footer Section*/
+    #footer 
+        {text-align: center;
+        font-family:Dosis;
+        background-color: dimgray;
+        border:5px solid maroon;
+        border-style:groove;
+        padding: 10px;
+        font-size: 12pt;
+        font-variant: small-caps;
+        color: silver;}
  
 
+/* Contact Form*/
+    #formElements{
+        font-family:Dosis;
+        background-color: silver;
+        border: 5px solid maroon;
+        display:grid;
+        row-gap: .75em;
+        font-family:Dosis;
+        font-variant: small-caps;}
+    
+    #contact{
+        padding: 1.5rem;
+        max-width:500px;
+        margin: 1.5rem auto;
+        font-family:Dosis;
+        font-variant: small-caps;}
 
- /*Dropcaps
+    fieldset{
+        font-family:Dosis;
+        border: 2px solid maroon;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border-radius: 2rem;
+        font-variant: small-caps;}
+
+    legend{
+        background-color: maroon;
+        color:silver;
+        padding: 0.5rem;
+        font-variant: small-caps;}
+
+    #contact ul{
+        list-style: none;
+        padding:0px;}
+      
+    #contact li{
+        margin: 1rem;}
+
+    #contact button {
+        background-color: maroon;
+        padding: .5em;
+        color:silver;
+        border: .25em solid steelblue;
+        max-width: 500px;
+        font-family: Dosis;
+        font-variant: small-caps;
+        font-size: larger; }
+
+
+
+/*tablet size*/ 
+    @media screen and (min-width:60em){
+    figure {
+    display:grid;
+    grid-template-columns: 1fr 2fr;}
+
+    figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1rem;}}
+
+    figure image {width: 100%;}
+
+/*larger screen size*/ 
+    @media screen and (min-width:100em) {
+        #gallery {
+        display:grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr}
+    
+        hr{display:none;}
+
+        #gallery h2 {
+        grid-column: 1/-1;}
+
+        figure {display: block;}
+
+        #lit div {
+        max-width: 100%;
+        columns: 20rem;}
+        }
+
+
+
+
+         /*Dropcaps
 
     #lit div p:first-child:first-letter {
         padding: 2rem 0;
@@ -358,92 +449,3 @@ header {text-align: center;}
         box-shadow: .5px .5px .5px .5px maroon;
     }*/
            
-    /* Contact Form*/
-        #formElements{
-            font-family:Dosis;
-            background-color: silver;
-            border: 5px solid maroon;
-            display:grid;
-            row-gap: .75em;
-            font-family:Dosis;
-            font-variant: small-caps;
-        }
-    
-        #contact{
-            padding: 1.5rem;
-            max-width:500px;
-            margin: 1.5rem auto;
-            font-family:Dosis;
-            font-variant: small-caps;
-        }
-
-        fieldset{
-            font-family:Dosis;
-            border: 2px solid maroon;
-            margin-top: 1em;
-            margin-bottom: 1em;
-            border-radius: 2rem;
-            font-variant: small-caps;
-        }
-
-    legend{
-        background-color: maroon;
-        color:silver;
-        padding: 0.5rem;
-        font-variant: small-caps;
-    }
-
-    #contact ul{
-        list-style: none;
-        padding:0px;
-    }
-      
-    #contact li{
-        margin: 1rem;
-    }
-
-    #contact button {
-        background-color: maroon;
-        padding: .5em;
-        color:silver;
-        border: .25em solid steelblue;
-        max-width: 500px;
-        font-family: Dosis;
-        font-variant: small-caps;
-        font-size: larger;
-       
-    }
-
-
-
-/*tablet size*/ 
-@media screen and (min-width:60em){
-    figure {
-    display:grid;
-    grid-template-columns: 1fr 2fr;}
-
-    figcaption {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 1rem;}}
-
-    figure image {width: 100%;}
-
-   /*larger screen size*/ 
-        @media screen and (min-width:100em) {
-        #gallery {
-        display:grid; 
-        grid-template-columns: 1fr 1fr 1fr 1fr}
-    
-        hr{display:none;}
-
-        #gallery h2 {
-        grid-column: 1/-1;}
-
-        figure {display: block;}
-
-        #lit div {
-        max-width: 100%;
-        columns: 20rem;}
-        }
