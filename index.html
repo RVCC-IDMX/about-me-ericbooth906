@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,56 +13,38 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
 
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/nav.css" rel="stylesheet">
-
-
-  
-<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis">
-
 </head>
-
 
 <body>
 
-  <div class="background">&nbsp;</div>
+<header>
 
-  <!-- nav -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <h1 class="logo">Eric Booth</h1>
+    <input type="checkbox" class="nav-toggle">
+  
+    <nav>
+        <ul>
+           <li><a href="#bio">xxxBio</a>
+           </li>
+           <li><a href="#video">xxxWatch a Video</a>
+           </li>
+           <li><a href="#myhobbies">xxxHobbies</a>
+           </li>
+           <li><a href="#gallery">xxxGallery</a>
+           </li>
+           <li><a href="#lit">xxxBlog</a>
+           </li><a href="#contact">xxxContact Me</a>
+           </li>
+        </ul>
+    </nav>
 
-        <nav class="navbar">
-            <div class="logo">
-                <img src="img/Logo with.png" alt="Eric Booth Logo">
-                <h1>Eric Booth</h1>
-            </div>
+    <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+    </label>
 
-        <div class="navbar-links">
-                <ul>
-                    <li>
-                        <a href="bio">Bio</a>
+</header>
 
-                    </li>
-                    <li>
-                        <a href="video">Watch a Video</a>
-                    </li>
-                    <li>
-                        <a href="myhobbies">Hobbies</a>
-                    </li>
-                    <li>
-                        <a href="gallery">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="lit">Blog</a>
-                    </li>
-                    <li>
-                        <a href="contact">Contact Me</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
 
-    </head>
 
     <main>
         <div>
@@ -73,7 +54,8 @@
 
                 <p><strong>Eric Booth</strong></p>
                 <p>Hillsborough, NJ</p>
-        </section>
+            </section>
+            </div>
 
         <div>
             <section id="bio">
@@ -105,9 +87,44 @@
             <section id="myhobbies">
            
             <h2>Hobbies</h2>
-            <p> Here are some thoughts about hobbies.....</p>
+            <h4>Here are some thoughts about hobbies.....</h4>
             
-            <br>
+            <div class="responsive">
+                <div class="gallery">
+                    <img src="img/Fishing Ocean.jpg" alt="LBI Fishing" max-width="200" max-height="400">
+                <div class="desc">Fishing</div>
+                </div>
+            </div>
+            
+            
+            <div class="responsive">
+              <div class="gallery">
+                <img src="img/Iceland720.PNG" alt="Iceland Waterfall" max-width="200" max-height="400">
+                
+                <div class="desc">Travel</div>
+              </div>
+            </div>
+            
+            <div class="responsive">
+              <div class="gallery">
+                <img src="img/Gaming720.jpg" alt="Gaming" max-width="200" max-height="400">
+                
+                <div class="desc">Gaming</div>
+              </div>
+            </div>
+            
+            <div class="responsive">
+              <div class="gallery">
+                <img src="img/Basketball.JPG" alt="Sports" max-width="200" max-height="400">
+                
+                <div class="desc">Sports</div>
+              </div>
+            </div>
+            
+            <div class="clearfix"></div>
+            
+            <div style="padding:6px;">
+                                <br>
             <div class="myDIV">Fishing</div>
             <div class="hide">Fishing is a way to unwinderat nunc, faucibus eget leo volutpat, commodo facilisis quam. unwind
                 Sed dictum pulvinar sapien in aliquam. Vivamus ullamcorper dictum ipsum, a varius mi dictum ac. Curabitu
@@ -141,6 +158,8 @@
             </div>
             <br>
             <br>
+
+             </div>
                    </section>
 
         </div>
@@ -212,24 +231,23 @@
         </section>
            
             <div>
-                <section id="varfont">
-                <h2>An Introduction to Variable Fonts</h2>
+                <section id="ImageHover">
+                
+                <div class="color">
+                    <img src="img/Yankee Lake View640.jpg" alt="New York Lake View"  width="600" height="400">
+                </div>
 
-                <p3><a href="https://www.w3schools.com">Italic Text</a> &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp</p3>              
-                <p4><a href="https://www.wikipedia.org">Bold Text</a> &nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp</p4>
-                <p5><a href="https://www.wikipedia.org">Lighter Text</a>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp</p5>
-                <p id ="stext"> <a href="https://www.wikipedia.org">Slanted Text</a>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp</p>
-                <p7><a href="https://www.wikipedia.org">Optical Size</a>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp</p7>
-                <p8><a href="https://www.wikipedia.org">Width</a>&nbsp;&nbsp;&nbsp;&nbsp &nbsp;&nbsp</p8>       
+                <div class="color">
+                    <img src="img/Florida Beach640.jpg" alt="Vero Beach Florida"  width="600" height="400">
+                </div>
 
-                 </section>
-
-                 <style>
-                    a:hover {
-                      background-color:steelblue;}
-                    </style>
-                    </head>
-                    <body>
+                <h5>Using a Greyscale Hover Effect on a Photo</h5>
+                <p>Want to allow your site visitors a chance to change the mood? This hover effect momentarily alters a photo between color and greyscale.
+                <br>
+                hjkfhskdafhsakf
+                </p>
+                           
+                </section>          
             </div>
 
              
