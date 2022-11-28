@@ -53,6 +53,17 @@ The following websites were introduces and utilized within the course:
 With a goal of creating a "professional" looking site, I selected muted colors.
 There are a few complementary colors such as Dim Grey (#696969), Light Steel Blue (#B0C4DE), and White (#FFFFF) added in as well.
 
+
+# Hover Effect
+ The course instructor challenged our class to include a hover effect on our page, so here it is. Credit to [The Brandsmen](https://thebrandsmen.com/css-image-hover-effects/) for this code. I used two "water" photos - one from a lake, one from a Florida beach.
+
+ This is the html code for the section with where the "hover" is utilized:
+[HTML](img/html%20hover.png)
+          
+ And this is the css side:
+[CSS](img/css%20hover.png)
+
+    
 # Citations for Hobbies Section
 * Andrew Denning, Deep Play? Video Games and the Historical Imaginary, The American Historical Review, Volume 126, Issue 1, March 2021, Pages 180–198, https://doi.org/10.1093/ahr/rhab002.
 
