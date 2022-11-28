@@ -1,58 +1,35 @@
-Filebody{
-    font-family:Dosis;
-    background-color:darkgray;
-    color:black}
-
-h1, h2, h3,h4,h5,h6
-{font-family: Dosis}
-h1 {font-size:30pt;text-align: center; color: black; font-variant: small-caps;}
-h2 {font-size:24pt;text-align: center; margin: .25em; font-weight: bolder; color:black;padding: 25px;}
-h3 {font-size:24pt;text-align: center;color: black;}
-h4 {font-size:18pt;text-align: left;}
-h5 {font-size:24pt;text-align: center;color: whitesmoke;}
-
-header {text-align: center;}
-
-#p2 {font-family:Dosis; 
-    text-align:left;
-    font-size: 12pt;
-    font-weight: normal;
-    color:maroon}
- 
-:root {
-    --background:pink;
-    place-items: center;}
 
 *, *::before, *::after {
-    box-sizing: border-box;
-    border: 5;}
+    box-sizing: border-box;}
 
-/* Navigation Section*/
+
 
 header{
-    background: var(--background);
     font-family: Dosis;
     background-color:yellowgreen;
     border:5px solid maroon;
-    border-style:groove;
     text-align: center;
     position: fixed;
-    z-index: 999;
-    width: 100%;}
+    width: 100%;
+    z-index: 10;}
+
+    .logo {
+        margin: 18px; }
 
     .nav-toggle {
-        display: none; }
+    display: none;}
 
     .nav-toggle-label {
         position: absolute;
         top: 0;
         left: 0;
         margin-left: 1em;
-        border: 2px soid aqua;
+        border: 2px solid red;
         height: 100%;
         display: flex;
         align-items: center;}
 
+   
     .nav-toggle-label span,
     .nav-toggle-label span::before,
     .nav-toggle-label span::after {
@@ -74,25 +51,30 @@ header{
     .nav-toggle-label span::after {
            top: 7px;}
 
-    nav{
-    position: absolute;
-    font-family: Dosis;
-    color: black;
-    text-align: left;
-    top: 100%;
-    left: 0;
-    background: var(--background);
-    width: 100%;
-    display: none;}
 
+
+    nav {
+        position: absolute;
+        font-family: Dosis;
+        color: black;
+        text-align: left;
+        top: 100%;
+        left: 0;
+        background: yellowgreen;
+        width: 100%;
+        display: none;}
+   
     nav ul{
         font-family: Dosis;
-        color: black;margin: 0;
+        color: black;
+        margin: 0;
         padding: 0;
         list-style: none;}
+
     nav li {
         font-family: Dosis;
-        color: black;margin-bottom: 1em;
+        color: black;
+        margin-bottom: 1em;
         margin-left: 1em; }
 
     nav a {
@@ -100,20 +82,70 @@ header{
         color: black;
         text-decoration: none;
         font-size: 1.2rem;
-        text-transform: uppercase;
-        opacity: 0;
-        transition: opacity 150ms ease-in}
-    
+        text-transform: uppercase;}
+        
     nav a:hover {
         font-family: Dosis;
         color:whitesmoke }
-    
+         
     .nav-toggle:checked ~ nav {
         display: block;}
 
+   
+
+/*Navigation Section 
+  
+
+    
+
+    
+    
+
     
 
 
+
+
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filebody {
+    font-family:Dosis;
+    background-color:darkgray;
+    color:black}
+
+h1, h2, h3,h4,h5,h6
+{font-family: Dosis}
+h1 {font-size:30pt;text-align: center; color: black; font-variant: small-caps;}
+h2 {font-size:24pt;text-align: center; margin: .25em; font-weight: bolder; color:black;padding: 25px;}
+h3 {font-size:24pt;text-align: center;color: black;}
+h4 {font-size:18pt;text-align: left;}
+h5 {font-size:24pt;text-align: center;color: whitesmoke;}
+
+header {text-align: center;}
+
+#p2 {font-family:Dosis; 
+    text-align:left;
+    font-size: 12pt;
+    font-weight: normal;
+    color:maroon}
+ 
 
 
 
@@ -135,7 +167,8 @@ header{
         font-size:20pt;
         font-variant: small-caps;
         color: black;
-        padding: 10px;}
+        padding: 10px;
+        z-index: 2;}
     
     #hero img{
         border-radius: 50%;
@@ -161,7 +194,8 @@ header{
         align-items: center;
         margin-bottom:2rem;
         padding: 10px;
-        margin: 0 auto;}
+        margin: 0 auto;
+        z-index: 2;}
         
   
     #li{text-align:center; 
@@ -184,7 +218,8 @@ header{
         padding: 10px;
         font-size: 24pt;
         color: darkslategray;
-        font-variant: small-caps;}
+        font-variant: small-caps;
+        z-index: 999;}
 
     #gallery img {
         max-width: 100%;
@@ -236,7 +271,8 @@ header{
         font-size: x-large;
         margin-top: 2rem;
         margin-bottom:2rem;
-        object-fit: scale-down;}
+        object-fit: scale-down;
+        z-index: auto;}
 
         .hide {
           display: none;
@@ -257,8 +293,7 @@ header{
           }
           
           div.gallery:hover {
-            border: 2px solid rgb(143, 33, 70);
-          }
+            border: 2px solid rgb(143, 33, 70); }
           
           div.gallery img {
             width: 100%;
@@ -272,20 +307,22 @@ header{
             box-sizing: border-box;}
           
           .responsive {
-            padding: 0 6px;
+            background-color: darkgray;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-left: 6px;
+            padding-right: 6px;
             float: left;
             width: 24.99999%;}
           
           @media only screen and (max-width: 700px) {
             .responsive {
               width: 49.99999%;
-              margin: 6px 0; }
-          }
+              margin: 6px 0; } }
           
           @media only screen and (max-width: 500px) {
             .responsive {
-              width: 100%; }
-          }
+              width: 100%; }  }
           
           .clearfix:after {
             content: "";
