@@ -9,7 +9,7 @@ h1 {font-size:30pt;text-align: center; color: black; font-variant: small-caps;}
 h2 {font-size:24pt;text-align: center; margin: .25em; font-weight: bolder; color:black;padding: 25px;}
 h3 {font-size:24pt;text-align: center;color: black;}
 h4 {font-size:18pt;text-align: left;}
-
+h5 {font-size:24pt;text-align: center;color: whitesmoke;}
 
 header {text-align: center;}
 
@@ -19,6 +19,104 @@ header {text-align: center;}
     font-weight: normal;
     color:maroon}
  
+:root {
+    --background:pink;
+    place-items: center;}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    border: 5;}
+
+/* Navigation Section*/
+
+header{
+    background: var(--background);
+    font-family: Dosis;
+    background-color:yellowgreen;
+    border:5px solid maroon;
+    border-style:groove;
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;}
+
+    .nav-toggle {
+        display: none; }
+
+    .nav-toggle-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: 1em;
+        border: 2px soid aqua;
+        height: 100%;
+        display: flex;
+        align-items: center;}
+
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        display: block;
+        background: blue;
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        position:relative;}
+
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        content: '';
+        position: absolute;}
+
+    .nav-toggle-label span::before {
+        bottom: 7px;}
+
+    .nav-toggle-label span::after {
+           top: 7px;}
+
+    nav{
+    position: absolute;
+    font-family: Dosis;
+    color: black;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: var(--background);
+    width: 100%;
+    display: none;}
+
+    nav ul{
+        font-family: Dosis;
+        color: black;margin: 0;
+        padding: 0;
+        list-style: none;}
+    nav li {
+        font-family: Dosis;
+        color: black;margin-bottom: 1em;
+        margin-left: 1em; }
+
+    nav a {
+        font-family: Dosis;
+        color: black;
+        text-decoration: none;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        opacity: 0;
+        transition: opacity 150ms ease-in}
+    
+    nav a:hover {
+        font-family: Dosis;
+        color:whitesmoke }
+    
+    .nav-toggle:checked ~ nav {
+        display: block;}
+
+    
+
+
+
+
+
 
 
     
@@ -179,81 +277,38 @@ header {text-align: center;}
         .h4 {color: black;}
 
 
-/*Variable Font Section */  
+/*Image Hover Effect Section */  
 
-    #varfont{
+    #ImageHover{
         flex-direction: row;
-        background-color:lightsteelblue;
+        background-color:black;
         border: 5px solid maroon;
         padding: 50px;
         text-align: center;
+        color:whitesmoke;
         line-height: 1.5;
         font-family:Dosis; 
-        color: black;
+        color: whitesmoke;
         align-self: center;
         padding: 2rem;
         margin-top: 2rem;
         margin-bottom:2rem;}
     
-    #varfont p3 {
-       font-family: Dosis; 
-       color: black;
-       text-decoration:underline;
-       font-style: italic;
-       font-size: x-large; 
-       text-align: center;
-       color: black}
+         a:hover {
+            background-color:steelblue;}
 
-    #varfont p4 {
-        font-family: Dosis;
-        color: black; 
-        text-decoration:underline;
-        font-weight: bolder;       
-        font-size: x-large; 
-        text-align: center;
-        color:black}
- 
-    #varfont p5 {
-        font-family: Dosis; 
-        color:black;
-        text-decoration: underline;
-        font-weight: lighter;
-        font-size: x-large; 
-        text-align: center;
-        color: black}
-     
-    #varfont p6 {
-        font-family: Dosis; 
-        color: black;
-        text-decoration:underline;
-        transform: rotate(-45 deg);
-        font-size: x-large; 
-        text-align: center;
-        color: black}
+               .color img{
+                filter: grayscale(100%);
+                -webkit-filter: grayscale(100%);
+                -webkit-transition: all 1s ease;               }
+                
+                .color img:hover{
+                filter: grayscale(0%);
+                filter: gray;
+                -webkit-filter: grayscale(0%);
+                filter: none;
+                transition: 1s ease; }
 
-    #varfont p7 {
-        font-family: Dosis; 
-        color: black;
-        text-decoration:underline;
-        font-optical-sizing: auto;
-        font-size: x-large; 
-        text-align: center;
-        color: black}
-            
-    #varfont p8 {
-        font-family: Dosis; 
-        color: black;
-        font-stretch: extra-expanded;
-        text-decoration:underline;
-        font-size: x-large; 
-        text-align: center;
-        color: black}
-
-    #varfont stext {
-        -ms-transform: rotate(-10deg); /* IE 9 */
-         -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
-        -moz-transform: rotate(-10deg); /*Mozilla */
-         transform: rotate(-10deg);}
 
 /*Article Section */  
 
