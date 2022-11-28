@@ -55,8 +55,10 @@ There are a few complementary colors such as Dim Grey (#696969), Light Steel Blu
 
 
 # Hover Effect
- The course instructor challenged our class to include a hover effect on our page, so here it is. Credit to [The Brandsmen](https://thebrandsmen.com/css-image-hover-effects/) for this code. I used two "water" photos - one from a lake, one from a Florida beach.
-
+ The course instructor challenged our class to include a hover effect on our page, so here it is. For this site, I used two "water" photos - one from a lake, one from a Florida beach.
+ 
+ Credit to [The Brandsmen](https://thebrandsmen.com/css-image-hover-effects/) for this code. There are a few other fun things to try on this site as well. Simple code, which works well for a beginner!
+ 
  This is the html code for the section with where the "hover" is utilized:
 [HTML](img/html%20hover.png)
           
@@ -65,6 +67,9 @@ There are a few complementary colors such as Dim Grey (#696969), Light Steel Blu
 
     
 # Citations for Hobbies Section
+I used some photos (of me) to illustrate my hobbies.  Credit to [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive) for the coding help on this. This site is an invaluable resources for the beginning coder.
+
+
 * Andrew Denning, Deep Play? Video Games and the Historical Imaginary, The American Historical Review, Volume 126, Issue 1, March 2021, Pages 180–198, https://doi.org/10.1093/ahr/rhab002.
 
 # Variable Fonts Blog Article
