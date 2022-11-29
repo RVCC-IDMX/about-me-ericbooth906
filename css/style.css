@@ -80,7 +80,7 @@ header{
     .nav-toggle-label span::before,
     .nav-toggle-label span::after {
         display: block;
-        background: maroon;
+        background: whitesmoke;
         height: 2px;
         width: 2em;
         border-radius: 2px;
@@ -389,9 +389,9 @@ header{
             max-width: 40rem;
             margin: 0 auto;}
 
-    #lit div p{
-            padding: .3rem 0;
-            clear: both;}
+            #lit div p{
+                padding: .3rem 0;
+                clear: both;}
         
     #lit f1 {font-weight: 100;}
     #lit f5 {font-weight: 500;}
@@ -517,10 +517,53 @@ header{
         font-size: larger; }
 
 
+/*Media Responsive Nav Bar*/
+    @media screen and (min-width:800px){
+            .nav-toggle-label {
+               display: none;}   
+   
+           header {
+               display: grid;
+               grid-template-columns: 1fr auto minmax(600px,3fr) 1fr; }
+           .mylogo {
+               grid-column: 2 / 3; }
+           nav {
+               all: unset;
+               grid-column: 3 / 4;
+               display: flex;
+               justify-content: flex-end;
+               align-items: center; }
+     
+           nav ul {
+               display: flex; }
+   
+           nav li {
+               margin-left: 3em;
+               margin-bottom: 0;}
+   
+           nav a {
+               opacity: 1;
+               position:relative; }
+   
+           nav a::before {
+               content: '';
+               display: block;
+               height: 5px;
+               background: black;
+               position: absolute;
+               top: -.75em;
+               left: 0;
+               right: 0;
+               transform: scale(0, 1);
+               transition: transform ease-in-out 250ms;}
+           nav a:hover {
+               transform: scale(1,  1);}
+       }
+   
 
-/*tablet size*/ 
+/*Tablet size*/ 
     @media screen and (min-width:60em){
-    figure {
+    figure, image{
     display:grid;
     grid-template-columns: 1fr 2fr;}
 
@@ -530,9 +573,11 @@ header{
         align-items: center;
         margin-left: 1rem;}}
 
-    figure image {width: 100%;}
+    figure image {width:fit-content;}
 
-/*larger screen size*/ 
+    
+
+/*Larger screen size*/ 
     @media screen and (min-width:100em) {
         #gallery {
         display:grid; 
@@ -544,74 +589,11 @@ header{
         grid-column: 1/-1;}
 
         figure {display: block;}
-
-        #lit div {
+ 
+       #lit div {
         max-width: 100%;
         columns: 20rem;}
         }
 
-        @media screen and (min-width:800px){
-         .nav-toggle-label  {
-            display: none;}   
 
-        header {
-            display: grid;
-            grid-template-columns: 1fr auto minmax(600px,3fr) 1fr ;
-        }
-        .logo {
-            grid-column: 2 / 3;  
-        }
-        nav {
-            all: unset;
-            grid-column: 3 / 4;
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-        }
-        nav ul {
-            display: flex;
-        }
-        nav li {
-            margin-left: 3em;
-            margin-bottom: 0;   
-        }
-        nav a {
-            opacity: 1;
-            position:relative;
-        }
-        nav a::before {
-            content: '';
-            display: block;
-            height: 5px;
-            background: black;
-            position: absolute;
-            top: -.75em;
-            left: 0;
-            right: 0;
-            transform: scale(0, 1);
-            transition: transform ease-in-out 250ms;
-        }
-        nav a:hover {
-            transform: scale(1,  1);
-        }
-    }
-
-
-         /*Dropcaps
-
-    #lit div p:first-child:first-letter {
-        padding: 2rem 0;
-        clear: both;
-        max-width: 40rem;
-        margin: 0 auto;
-        float:.5rem inline-start;
-        color: black;
-        background-color: darkgoldenrod;
-        font-size: 1.5rem;
-        padding: .5rem;
-        border: 1px outset darkgrey;
-        font-family:Dosis;
-        font-weight: bolder;
-        box-shadow: .5px .5px .5px .5px maroon;
-    }*/
            
