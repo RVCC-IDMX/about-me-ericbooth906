@@ -1,20 +1,66 @@
+body {
+    font-family:Dosis;
+    background-color:darkgray;
+    color:black}
+    
+h1, h2, h3,h4,h5,h6
+{font-family: Dosis}
+h1 {font-size:30pt;text-align: center; color: black; font-variant: small-caps;}
+h2 {font-size:24pt;text-align: center; margin: .25em; font-weight: bolder; color:black;padding: 25px;}
+h3 {font-size:24pt;text-align: center;color: black;}
+h4 {font-size:18pt;text-align: left;}
+h5 {font-size:24pt;text-align: center;color: whitesmoke;}
+
+header {text-align: center;}
+
+#mylogo {
+    background: black;
+    padding-top: 5rem;
+    text-align: center;}
+   
+#mylogo h1 {
+    font-family:Dosis;
+    color:whitesmoke;
+    font-size: xx-large;}
+
+#mylogo img {
+    border-radius: 5%;
+    max-width: 200px;}
+
 
 *, *::before, *::after {
     box-sizing: border-box;}
 
 
 
+      
+/*Navigation Section */
+
+
 header{
     font-family: Dosis;
-    background-color:yellowgreen;
-    border:5px solid maroon;
+    background-color:darkgray;
+    border:5px solid black;
+    border-radius: 5em;
     text-align: center;
     position: fixed;
-    width: 100%;
-    z-index: 10;}
+    width: 90%;
+    z-index:1;}
 
-    .logo {
-        margin: 18px; }
+
+    nav {
+        position:fixed;
+        font-family: Dosis;
+        color: black;
+        text-align: left;
+        top: 100%;
+        left: 0;
+        background: maroon;
+        width: 100%;
+        transform: scale(1,0);
+        transform-origin: top;
+        transition: transform 400ms ease-in-out;}
+
 
     .nav-toggle {
     display: none;}
@@ -24,7 +70,7 @@ header{
         top: 0;
         left: 0;
         margin-left: 1em;
-        border: 2px solid red;
+        border: 2px solid maroon;
         height: 100%;
         display: flex;
         align-items: center;}
@@ -34,7 +80,7 @@ header{
     .nav-toggle-label span::before,
     .nav-toggle-label span::after {
         display: block;
-        background: blue;
+        background: maroon;
         height: 2px;
         width: 2em;
         border-radius: 2px;
@@ -50,19 +96,6 @@ header{
 
     .nav-toggle-label span::after {
            top: 7px;}
-
-
-
-    nav {
-        position: absolute;
-        font-family: Dosis;
-        color: black;
-        text-align: left;
-        top: 100%;
-        left: 0;
-        background: yellowgreen;
-        width: 100%;
-        display: none;}
    
     nav ul{
         font-family: Dosis;
@@ -82,63 +115,22 @@ header{
         color: black;
         text-decoration: none;
         font-size: 1.2rem;
-        text-transform: uppercase;}
+        text-transform: uppercase;
+        opacity: 0;
+        transition: opacity 150ms ease-in-out;}
         
     nav a:hover {
         font-family: Dosis;
-        color:whitesmoke }
+        color:maroon;}
          
     .nav-toggle:checked ~ nav {
-        display: block;}
+        transform: scale(1,1);}
 
-   
+    .nav-toggle:checked ~ nav a {
+        opacity: 1;
+        transition: opacity 250ms ease-in-out 250ms; }
 
-/*Navigation Section 
-  
-
-    
-
-    
-    
-
-    
-
-
-
-
-   */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Filebody {
-    font-family:Dosis;
-    background-color:darkgray;
-    color:black}
-
-h1, h2, h3,h4,h5,h6
-{font-family: Dosis}
-h1 {font-size:30pt;text-align: center; color: black; font-variant: small-caps;}
-h2 {font-size:24pt;text-align: center; margin: .25em; font-weight: bolder; color:black;padding: 25px;}
-h3 {font-size:24pt;text-align: center;color: black;}
-h4 {font-size:18pt;text-align: left;}
-h5 {font-size:24pt;text-align: center;color: whitesmoke;}
-
-header {text-align: center;}
+     
 
 #p2 {font-family:Dosis; 
     text-align:left;
@@ -148,11 +140,6 @@ header {text-align: center;}
  
 
 
-
-
-
-    
-
 /*Hero and Footer Section*/
 
 /*Hero Section*/
@@ -160,15 +147,14 @@ header {text-align: center;}
         flex: auto;
         font-family: Dosis;
         background-color:silver;
-        border:5px solid maroon;
-        border-style:groove;
+        border: 5px solid maroon;
         text-align: center;
-        padding: 5px;
         font-size:20pt;
         font-variant: small-caps;
         color: black;
         padding: 10px;
-        z-index: 2;}
+        margin: 2rem
+        z-index: index auto;}
     
     #hero img{
         border-radius: 50%;
@@ -181,11 +167,6 @@ header {text-align: center;}
     #bio {
         background-color:lightsteelblue;
         border:maroon 5px solid;
-        border-style:groove;
-        margin-top: 10px;
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 10px;
         text-align:left;
         font-family: Dosis;
         font-size:14pt;
@@ -193,8 +174,9 @@ header {text-align: center;}
         flex-direction: column; 
         align-items: center;
         margin-bottom:2rem;
+        margin-top:2rem;
         padding: 10px;
-        margin: 0 auto;
+ 
         z-index: 2;}
         
   
@@ -581,7 +563,51 @@ header {text-align: center;}
         columns: 20rem;}
         }
 
+        @media screen and (min-width:800px){
+         .nav-toggle-label  {
+            display: none;}   
 
+        header {
+            display: grid;
+            grid-template-columns: 1fr auto minmax(600px,3fr) 1fr ;
+        }
+        .logo {
+            grid-column: 2 / 3;  
+        }
+        nav {
+            all: unset;
+            grid-column: 3 / 4;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        nav ul {
+            display: flex;
+        }
+        nav li {
+            margin-left: 3em;
+            margin-bottom: 0;   
+        }
+        nav a {
+            opacity: 1;
+            position:relative;
+        }
+        nav a::before {
+            content: '';
+            display: block;
+            height: 5px;
+            background: black;
+            position: absolute;
+            top: -.75em;
+            left: 0;
+            right: 0;
+            transform: scale(0, 1);
+            transition: transform ease-in-out 250ms;
+        }
+        nav a:hover {
+            transform: scale(1,  1);
+        }
+    }
 
 
          /*Dropcaps
