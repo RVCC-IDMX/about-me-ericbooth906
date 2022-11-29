@@ -154,7 +154,7 @@ header{
         color: black;
         padding: 10px;
         margin: 2rem
-        z-index: index auto;}
+        z-index auto;}
     
     #hero img{
         border-radius: 50%;
@@ -262,8 +262,8 @@ header{
             
         .myDIV:hover + .hide {
           display: block;
-          background-color:silver;
-          font-size: 16pt;
+          background-color:steelblue;
+          font-size: 14pt;
           font-style: italic;
           color: black;
           border: 2px solid rgb(143, 33, 70);
@@ -289,7 +289,7 @@ header{
             box-sizing: border-box;}
           
           .responsive {
-            background-color: darkgray;
+            background-color: steelblue;
             padding-top: 18px;
             padding-bottom: 18px;
             padding-left: 6px;
@@ -310,23 +310,6 @@ header{
             content: "";
             display: table;
             clear: both; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -377,7 +360,7 @@ header{
                .color img{
                 filter: grayscale(100%);
                 -webkit-filter: grayscale(100%);
-                -webkit-transition: all 1s ease;}
+                transition: all 1s ease;}
                 
                 .color img:hover{
                 filter: grayscale(0%);
@@ -391,12 +374,12 @@ header{
 
     #lit article{
         flex-direction: column;
-        background-color:lightgrey;
+        background-color:black;
         border: 5px solid maroon;
-        padding: 50px;
+        padding: 25px;
         text-align: left;
         font-family:Dosis;
-        color:black;
+        color:whitesmoke;
         font-size: larger; 
         font: size 2.0rem;
         margin-bottom:2rem; }
@@ -417,7 +400,11 @@ header{
     #lit str {font-stretch:wider;}
     #lit str1 {font-stretch:ultra-expanded;}
     #lit slant {font-style:oblique}
-
+    
+    
+    #lit h1 {
+        font-family: Dosis;
+        color: whitesmoke;}
 
     #lit p3 {
         font-family: Dosis; 
@@ -425,7 +412,7 @@ header{
         font-style: italic;
         font-size: x-large; 
         text-align: center;
-        color: black}
+        color: whitesmoke}
      
     #lit p4 {
         font-family: Dosis; 
@@ -433,7 +420,7 @@ header{
         font-weight: bolder;       
         font-size: x-large; 
         text-align: center;
-        color:black}
+        color:whitesmoke}
       
     #lit p5 {
         font-family: Dosis; 
@@ -441,15 +428,15 @@ header{
         font-weight: lighter;
         font-size: x-large; 
         text-align: center;
-        color: black}
+        color: whitesmoke}
           
-    #lit  p6 {
+    #lit p6 {
         font-family: Dosis; 
         text-decoration:underline;
         transform: rotate(-45 deg);
         font-size: x-large; 
         text-align: center;
-        color: black}
+        color: whitesmoke;}
      
     #lit p7 {
         font-family: Dosis; 
@@ -457,7 +444,7 @@ header{
         font-optical-sizing: auto;
         font-size: x-large; 
         text-align: center;
-        color: black}
+        color: whitesmoke;}
                  
     #lit p8 {
         font-family: Dosis; 
@@ -465,7 +452,7 @@ header{
         text-decoration:underline;
         font-size: x-large; 
         text-align: center;
-        color: black}
+        color: whitesmoke;}
 
         
 /*Footer Section*/
