@@ -64,12 +64,10 @@ There are a few complementary colors such as Dim Grey (#696969), Light Steel Blu
  
  Credit to [The Brandsmen](https://thebrandsmen.com/css-image-hover-effects/) for this code. There are a few other fun things to try on this site as well. Simple code, which works well for a beginner!
  
- This is the html code for the section with where the "hover" is utilized:
-[HTML](html hover.png)
+This is the html code for the section with where the "hover" is utilized:
 ![HTML](img/html%20hover.png)
 
-
- And this is the css side:
+And this is the css side:
 ![CSS](img/css%20hover.png)
     
 # Citations for Hobbies Section
