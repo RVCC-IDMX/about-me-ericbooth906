@@ -53,17 +53,7 @@ The following websites were introduces and utilized within the course:
 # Color Scheme and Assessing Color Contrast Ratios
  Here is the primary color scheme I used for the site:
 
-
-
-<img
-  src="(img/Color%20Palette%20About%20Me.png"
-  alt="Color Palette"
-  title="Colors"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
-
-
-
-
+![Color Palette](img/Color%20Palette%20About%20Me.png)
 
 
 With a goal of creating a "professional" looking site, I selected muted colors.
@@ -76,10 +66,11 @@ There are a few complementary colors such as Dim Grey (#696969), Light Steel Blu
  
  This is the html code for the section with where the "hover" is utilized:
 [HTML](html hover.png)
-          
- And this is the css side:
-[CSS](C:\Users\3boot\Desktop\RVCC\AAA IDMX\New About Me\about-me-ericbooth906\img\css hover.png)
+![HTML](img/html%20hover.png)
 
+
+ And this is the css side:
+![CSS](img/css%20hover.png)
     
 # Citations for Hobbies Section
 I used some photos (of me) to illustrate my hobbies. Photo credits to dad and mom. Also -- Credit to [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive) for the coding help on this. This site is an invaluable resources for the beginning coder.
@@ -106,7 +97,7 @@ Part of the assignment was to prepare a researched and cited article on a specif
 This is a personal site. Suggestions are welcome as are questions. There is a form on the site that allows you to do that.
 
 # Here's a photo of me and my cat, Oreo
-![Alt text](
+![This is me](img/Eric%20Oreo%20Square.PNG)
 
 
 
