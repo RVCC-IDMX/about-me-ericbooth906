@@ -1,15 +1,20 @@
 <!--**ericbooth906/ericbooth906** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.<!-->
 
 
+
+# If You're looking at This........
+
+Congratulations! You've found a README.md article, something that I did not know existed prior to this course. Now, look at me, adding fonts and color and graphics and trying to explain why this site is interesting.
+
+Actually, I think the Variable Fonts information ***is*** pretty interesting and a testament to the value of developers and creators moving out of their silos to improve the overall functioning of web design.
+
 # Eric Booth About Me Project README
 
-
-Hello. I'm Eric Booth and this is a summary of my closing project for my Web Development I course at Raritan Valley Community College.
+Anyway........ I'm Eric Booth and this is a summary of my closing project for my Web Development I course at Raritan Valley Community College.
 
 Here is a link to my Netlify Status Badges :[![Netlify Status](https://api.netlify.com/api/v1/badges/8e23ad4e-8b2b-4bea-bf32-2e3e2372614f/deploy-status)](https://app.netlify.com/sites/ericbooth906-newaboutme/deploys)
 
 See the sections below for a summary of progress this semester.
-
 
 # About Me Project Description - Skill Development
 The **About Me Project** is a semester-long project designed to teach basic aspects of web design.Among the topics covered and skills achieved:
@@ -48,11 +53,21 @@ The following websites were introduces and utilized within the course:
 # Color Scheme and Assessing Color Contrast Ratios
  Here is the primary color scheme I used for the site:
 
- [Color Palette](img/Color%20Palette%20About%20Me.png)
+
+
+<img
+  src="(img/Color%20Palette%20About%20Me.png"
+  alt="Color Palette"
+  title="Colors"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+
+
+
+
 
 With a goal of creating a "professional" looking site, I selected muted colors.
 There are a few complementary colors such as Dim Grey (#696969), Light Steel Blue (#B0C4DE), and White (#FFFFF) added in as well.
-
 
 # Hover Effect
  The course instructor challenged our class to include a hover effect on our page, so here it is. For this site, I used two "water" photos - one from a lake, one from a Florida beach.
@@ -67,7 +82,7 @@ There are a few complementary colors such as Dim Grey (#696969), Light Steel Blu
 
     
 # Citations for Hobbies Section
-I used some photos (of me) to illustrate my hobbies.  Credit to [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive) for the coding help on this. This site is an invaluable resources for the beginning coder.
+I used some photos (of me) to illustrate my hobbies. Photo credits to dad and mom. Also -- Credit to [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive) for the coding help on this. This site is an invaluable resources for the beginning coder.
 
 
 * Andrew Denning, Deep Play? Video Games and the Historical Imaginary, The American Historical Review, Volume 126, Issue 1, March 2021, Pages 180–198, https://doi.org/10.1093/ahr/rhab002.
@@ -86,20 +101,12 @@ Part of the assignment was to prepare a researched and cited article on a specif
 
 * “Variable Fonts 101: How to Get Started with Variable Fonts.” Monotype, 2022, https://www.monotype.com/resources/expertise/variable-fonts-101.
 
-# A Note About Hobbies
-Maybe something here
-# If You're looking at This........
-
-Congratulations! You've found a README.md article, something that I did not know existed prior to this course. Now, look at me, adding fonts and color and graphics and trying to explain why this site is interesting.
-
-Actually, I think the Variable Fonts information ***is*** pretty interesting and a testament to the value of developers and creators moving out of their silos to improve the overall functioning of web design.
-
 # Contributing
 
 This is a personal site. Suggestions are welcome as are questions. There is a form on the site that allows you to do that.
 
 # Here's a photo of me and my cat, Oreo
-![Alt text](../../../../../../../../C:/Users/3boot/Desktop/RVCC/AAA%20IDMX/New%20About%20Me/about-me-ericbooth906/img/Eric%20Oreo%20Square.PNG)
+![Alt text](
 
 
 
