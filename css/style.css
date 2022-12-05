@@ -30,7 +30,7 @@ header {text-align: center;}
 
 *, *::before, *::after {
     box-sizing: border-box;}
-
+    
 
 
       
@@ -178,8 +178,12 @@ header{
         padding: 10px;
  
         z-index: 2;}
-        
-  
+    
+    #bio {    
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;}
+
     #li{text-align:center; 
         font-family:Dosis;
         font-weight:normal}
@@ -335,7 +339,11 @@ header{
         clear:both;}
     
         .h4 {color: black;}
-
+    
+    #video {    
+            display: flex; 
+            flex-direction: column; 
+            align-items: center;}
 
 /*Image Hover Effect Section */  
 
@@ -352,7 +360,8 @@ header{
         align-self: center;
         padding: 2rem;
         margin-top: 2rem;
-        margin-bottom:2rem;}
+        margin-bottom:2rem;
+        max-width: 100%;}
     
          a:hover {
             background-color:whitesmoke}
@@ -368,7 +377,12 @@ header{
                 -webkit-filter: grayscale(0%);
                 filter: none;
                 transition: 1s ease; }
-
+                
+    #ImageHover{    
+            display: flex; 
+            flex-direction: column; 
+            align-items: center;
+            max-width: 100%;}
 
 /*Article Section */  
 
@@ -579,7 +593,7 @@ header{
 
 /*Larger screen size*/ 
     @media screen and (min-width:100em) {
-        #gallery {
+        #gallery, #ImageHover {
         display:grid; 
         grid-template-columns: 1fr 1fr 1fr 1fr}
     
