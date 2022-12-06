@@ -14,13 +14,13 @@ h5 {font-size:24pt;text-align: center;color: whitesmoke;}
 header {text-align: center;}
 
 #mylogo {
-    background: black;
+    background:darkgray;
     padding-top: 5rem;
     text-align: center;}
    
 #mylogo h1 {
     font-family:Dosis;
-    color:whitesmoke;
+    color:darkblue;
     font-size: xx-large;}
 
 #mylogo img {
@@ -39,8 +39,9 @@ header {text-align: center;}
 
 header{
     font-family: Dosis;
-    background-color:darkgray;
+    background-color:whitesmoke;
     border:5px solid black;
+    font-weight: bolder ;
     border-radius: 5em;
     text-align: center;
     position: fixed;
@@ -349,14 +350,13 @@ header{
 
     #ImageHover{
         flex-direction: row;
-        background-color:black;
+        background-color: steelblue;
         border: 5px solid maroon;
         padding: 50px;
         text-align: center;
         color:whitesmoke;
         line-height: 1.5;
         font-family:Dosis; 
-        color: whitesmoke;
         align-self: center;
         padding: 2rem;
         margin-top: 2rem;
@@ -388,12 +388,12 @@ header{
 
     #lit article{
         flex-direction: column;
-        background-color:black;
+        background-color:darkgoldenrod;
         border: 5px solid maroon;
         padding: 25px;
         text-align: left;
         font-family:Dosis;
-        color:whitesmoke;
+        color:black;
         font-size: larger; 
         font: size 2.0rem;
         margin-bottom:2rem; }
@@ -418,7 +418,7 @@ header{
     
     #lit h1 {
         font-family: Dosis;
-        color: whitesmoke;}
+        color: darkred}
 
     #lit p3 {
         font-family: Dosis; 
