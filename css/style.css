@@ -1,7 +1,9 @@
 body {
     font-family:Dosis;
     background-color:darkgray;
-    color:black}
+    color:black;
+    padding: 2em;
+align-items: center;}
     
 h1, h2, h3,h4,h5,h6
 {font-family: Dosis}
@@ -9,7 +11,7 @@ h1 {font-size:30pt;text-align: center; color: black; font-variant: small-caps;}
 h2 {font-size:24pt;text-align: center; margin: .25em; font-weight: bolder; color:black;padding: 25px;}
 h3 {font-size:24pt;text-align: center;color: black;}
 h4 {font-size:18pt;text-align: left;}
-h5 {font-size:24pt;text-align: center;color: whitesmoke;}
+h5 {font-size:18pt;text-align: center;color: maroon;}
 
 header {text-align: center;}
 
@@ -29,11 +31,8 @@ header {text-align: center;}
 
 
 *, *::before, *::after {
-    box-sizing: border-box;}
-    
-
-
-      
+     box-sizing: border-box;}
+        
 /*Navigation Section */
 
 
@@ -41,7 +40,7 @@ header{
     font-family: Dosis;
     background-color:whitesmoke;
     border:5px solid black;
-    font-weight: bolder ;
+    font-weight: bolder;
     border-radius: 5em;
     text-align: center;
     position: fixed;
@@ -327,7 +326,7 @@ header{
         border:5px solid maroon;
         text-align: center;
         padding: 10px;
-            font-size: 18pt;
+        font-size: 18pt;
         font-variant: small-caps;}
 
         .box{
@@ -348,21 +347,57 @@ header{
 
 /*Image Hover Effect Section */  
 
-    #ImageHover{
-        flex-direction: row;
-        background-color: steelblue;
+    #hover{
+            flex: auto;
+            max-width: 50em;
+            align-items: center;
+            font-family: Dosis;
+            background-color: silver;
+            border:5px solid maroon;
+            text-align: center;
+            padding: 10px;
+            font-size: 18pt;
+            margin-top: 2rem;
+            margin-bottom:2rem;  
+            object-fit: contain;}
+
+
+          @media only screen and (max-width: 700px) {
+            .responsive {
+              width: 49.99999%;
+              margin: 6px 0; } }
+          
+          @media only screen and (max-width: 500px) {
+            .responsive {
+              width: 100%; }  }
+          
+          .clearfix:after {
+            content: "";
+            display: table;
+            clear: both; }
+
+       /* flex: auto;
+        align-items: center;
+        font-family: Dosis;
+        background-color: pink;
         border: 5px solid maroon;
-        padding: 50px;
+        padding: 4em;
         text-align: center;
         color:whitesmoke;
         line-height: 1.5;
         font-family:Dosis; 
         align-self: center;
-        padding: 2rem;
-        margin-top: 2rem;
+        padding: 10px;
+        margin-top: 2em;
         margin-bottom:2rem;
-        max-width: 100%;}
+        max-width: 50em;
+        object-fit: contain;
     
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;}*/
+
+  
          a:hover {
             background-color:whitesmoke}
 
@@ -378,11 +413,22 @@ header{
                 filter: none;
                 transition: 1s ease; }
                 
-    #ImageHover{    
+    #hover{    
             display: flex; 
             flex-direction: column; 
             align-items: center;
             max-width: 100%;}
+            
+            .color{
+                float:none;
+                margin: 20px;}
+       
+        
+            .clear{
+                clear:both;}
+
+
+
 
 /*Article Section */  
 
@@ -494,14 +540,14 @@ header{
     
     #contact{
         padding: 1.5rem;
-        max-width:500px;
+        max-width:fit-content 30em;
         margin: 1.5rem auto;
         font-family:Dosis;
         font-variant: small-caps;}
 
     fieldset{
         font-family:Dosis;
-        border: 2px solid maroon;
+        border: .5em solid maroon;
         margin-top: 1em;
         margin-bottom: 1em;
         border-radius: 2rem;
@@ -515,7 +561,7 @@ header{
 
     #contact ul{
         list-style: none;
-        padding:0px;}
+        padding: 0.5em;}
       
     #contact li{
         margin: 1rem;}
@@ -525,14 +571,14 @@ header{
         padding: .5em;
         color:silver;
         border: .25em solid steelblue;
-        max-width: 500px;
+        max-width: 30em;
         font-family: Dosis;
         font-variant: small-caps;
         font-size: larger; }
 
 
 /*Media Responsive Nav Bar*/
-    @media screen and (min-width:800px){
+    @media screen and (min-width:40em){
             .nav-toggle-label {
                display: none;}   
    
